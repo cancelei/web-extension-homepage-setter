@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Homepage Changer",
+  "version": "1.0",
+  "description": "Change the homepage to a new link",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "chrome_settings_overrides": {
+    "homepage": "https://github.com"
+  }
+}
