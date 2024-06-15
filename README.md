@@ -1,6 +1,6 @@
 **To use the Web Extension:**
 
-1) close repo to local
+1) clone repo to local
 
 2) In your browser, navigate to extensions and turn on developer mode.
 
